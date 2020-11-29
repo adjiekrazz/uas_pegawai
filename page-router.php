@@ -1,11 +1,13 @@
 <?php
-    if ($_SESSION['status'] !== 'login') {
+    if (!isset($_SESSION['status'])) {
         if ($_GET) {
             if ($_GET['pesan'] === 'logout') {
                 header('location:login/index.php?pesan=logout');
+            } else {
+                header('location:login/index.php?pesan');
             }
         }
-        include "login/index.php";
+        header('location:login/index.php?pesan');
     } else {
         if ($_GET) {
             switch($_GET['page']) {

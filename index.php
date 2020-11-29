@@ -1,6 +1,10 @@
 <?php
     require_once "config/config.php";
-    require_once "config/session.php";
+    session_start();
+
+    if (!isset($_SESSION['status'])) {
+        header('location:login');
+    }
 ?>
 
 <!DOCTYPE html>

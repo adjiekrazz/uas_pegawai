@@ -1,3 +1,10 @@
+<?php
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
+?>
+
 <header>
 	<h4>Daftar Pegawai</h4>
 </header>

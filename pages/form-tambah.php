@@ -1,4 +1,9 @@
 <?php
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
+
     if (isset($_POST['tambah'])) {
         // grab form data
         $nama = $_POST['nama'];

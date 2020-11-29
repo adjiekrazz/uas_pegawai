@@ -1,4 +1,8 @@
 <?php
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
     // if id is unavailabe
     if (!isset($_GET)) {
         header('Location:?page=Daftar-Pegawai');
@@ -91,7 +95,7 @@
         </div>
         <div class="col-xs-12 col-md-6 form-group">
             <label for="alamat">Alamat</label>
-            <textarea name="alamat" class="form-control" rows="2" <?= $pegawai['alamat']; ?>></textarea>
+            <textarea name="alamat" class="form-control" rows="2"><?= $pegawai['alamat']; ?></textarea>
         </div>
     </div>
     <div class="row">

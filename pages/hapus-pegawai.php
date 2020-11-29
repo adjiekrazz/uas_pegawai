@@ -1,4 +1,9 @@
 <?php
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
+
     if (isset($_GET['id'])) {
         // grab the id from the url 
         $id = $_GET['id'];

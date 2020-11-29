@@ -1,5 +1,8 @@
 <?php
-    include "config.php";
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
 
     if (isset($_POST['daftar'])) {
         // grab form data

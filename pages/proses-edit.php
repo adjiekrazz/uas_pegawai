@@ -1,5 +1,8 @@
 <?php
-    include "config.php";
+
+    if (!isset($_SESSION['status'])) {
+        header('location:../');
+    }
 
     // check if btn simpan is clicked
     if (isset($_POST['simpan'])) {
