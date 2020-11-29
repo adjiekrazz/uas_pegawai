@@ -1,0 +1,1 @@
+Anda login sebagai <?= $_SESSION['username'] ?>. <a href="?page=Logout">Logout ?</a>
