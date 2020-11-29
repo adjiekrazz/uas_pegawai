@@ -50,11 +50,11 @@
                         <form action="proses-login.php" method="post">
                             <div class="form-group">
                                 <label for="username">Username</label>
-                                <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Pengguna">
+                                <input type="text" class="form-control" name="username" placeholder="Masukkan Nama Pengguna" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" name="password"  placeholder="Masukkan Kata Sandi">
+                                <input type="password" class="form-control" name="password"  placeholder="Masukkan Kata Sandi" required>
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">Login</button>
