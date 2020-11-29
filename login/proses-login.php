@@ -15,7 +15,6 @@
         $_SESSION['status'] = 'login';
         header('location:../index.php');
     } else {
-        var_dump($sql);
-        // header('location:index.php?pesan=gagal');
+        header('location:index.php?pesan=gagal');
     }
 ?>

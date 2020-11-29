@@ -86,11 +86,11 @@
         <div class="col-xs-12 col-md-3 form-group">
             <label for="agama">Agama</label><br>
             <select name="agama">
-                <option value="Islam" <?= $pegawai['agama'] === 'Islam' ? 'selected' : '' ; ?>>Islam</option>
-                <option value="Kristen" <?= $pegawai['agama'] === 'Kristen' ? 'selected' : '' ; ?>>Kristen</option>
-                <option value="Katholik" <?= $pegawai['agama'] === 'Katholik' ? 'selected' : '' ; ?>>Katholik</option>
-                <option value="Hindu" <?= $pegawai['agama'] === 'Hindu' ? 'selected' : '' ; ?>>Hindu</option>
-                <option value="Budha" <?= $pegawai['agama'] === 'Budha' ? 'selected' : '' ; ?>>Budha</option>
+                <option value="Islam" <?= $pegawai['agama'] === 'Islam' ? 'selected' : ''; ?>>Islam</option>
+                <option value="Kristen" <?= $pegawai['agama'] === 'Kristen' ? 'selected' : '';?>>Kristen</option>
+                <option value="Katholik" <?= $pegawai['agama'] === 'Katholik' ? 'selected' : '';?>>Katholik</option>
+                <option value="Hindu" <?= $pegawai['agama'] === 'Hindu' ? 'selected' : '';?>>Hindu</option>
+                <option value="Budha" <?= $pegawai['agama'] === 'Budha' ? 'selected' : '';?>>Budha</option>
             </select>
         </div>
         <div class="col-xs-12 col-md-6 form-group">
