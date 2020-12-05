@@ -27,19 +27,6 @@
       </li>
     </ul>
     <?php
-      } else {
-    ?>
-    <ul class="navbar-nav mr-auto">
-        <li></li>
-    </ul>
-    <ul class="navbar-nav my-2 my-lg-0">
-      <li class="nav-item mr-2">
-        <a class="nav-link" href="login">
-          Login
-        </a>
-      </li>
-    </ul>
-    <?php
       }
     ?>
   </div>

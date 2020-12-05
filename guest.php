@@ -65,4 +65,11 @@
 		</tbody>
 	</table>
 </div>
-<a class="btn btn-primary btn-block" href="?page=Tambah-Pegawai&status&pesan" role="button">Tambah Pegawai Baru</a>
+<div class="row">
+	<div class="col-md-6">
+		<a class="btn btn-primary btn-block" href="?page=Tambah-Pegawai&status&pesan" role="button">Tambah Pegawai Baru</a>
+	</div>
+	<div class="col-md-6">
+		<a class="btn btn-success btn-block" href="login" role="button">Login untuk hapus dan edit</a>
+	</div>
+</div>
