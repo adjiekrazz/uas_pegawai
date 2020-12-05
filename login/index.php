@@ -23,7 +23,7 @@
                                     case 'gagal':
                                         echo "
                                             <div class='alert alert-danger alert-dismissible' role='alert'>
-                                                Login Gagal! <br> Username atau password salah. <a href=../index.php>Main menu</a>
+                                                Login Gagal! <br> Username atau password salah. <a href=../index.php>Ke Halaman Utama</a>
                                                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                                                     <span aria-hidden='true'>&times;</span>
                                                 </button>
@@ -32,7 +32,7 @@
                                     case 'logout':
                                         echo "
                                             <div class='alert alert-success alert-dismissible' role='alert'>
-                                                Anda berhasil logout!. <a href=../index.php>Main menu</a>
+                                                Anda berhasil logout!. <a href=../index.php>Ke Halaman Utama</a>
                                                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                                                     <span aria-hidden='true'>&times;</span>
                                                 </button>
