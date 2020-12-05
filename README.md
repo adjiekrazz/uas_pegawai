@@ -13,4 +13,7 @@ Default login user :
 Username : adjiekrazz
 Password : password
 
-https://github.com/adjiekrazz/uas_pegawai.git
+https://github.com/adjiekrazz/uas_pegawai
+
+Arif Purnomo Aji
+1811012
