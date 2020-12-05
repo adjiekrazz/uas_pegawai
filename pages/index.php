@@ -4,4 +4,4 @@
         header('location:../');
     }
 ?>
-Anda login sebagai <?= $_SESSION['username'] ?>. <a href="?page=Logout">Logout ?</a>
+Anda login sebagai <?= $_SESSION['username'] ?>.

@@ -5,10 +5,10 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
     <?php
       if(isset($_SESSION['username']) && isset($_SESSION['status'])) {
     ?>
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item <?= ($_GET['page']) === '' ? 'active' : ''; ?>">
         <a class="nav-link" href="?page=">Beranda <span class="sr-only">(current)</span></a>
       </li>

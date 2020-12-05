@@ -47,7 +47,8 @@
         if ($query) {
             header('Location:?page=Daftar-Pegawai&status=suksesEdit');
         } else {
-            header('Location:?page=Daftar-Pegawai&status=gagalEdit');
+            echo mysqli_error($koneksi);
+            // header('Location:?page=Daftar-Pegawai&status=gagalEdit');
         }
     }
 ?>
